@@ -59,6 +59,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email_et"
             android:layout_width="match_parent"
+            android:inputType="textEmailAddress"
             android:layout_height="wrap_content"
             android:hint="Email" />
 
@@ -118,24 +119,17 @@
         app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-    <TextView
-        android:id="@+id/login_signup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="No Account? Register"
-        android:textColor="@color/muziki_color"
-        app:layout_constraintEnd_toEndOf="@+id/login_button"
-        app:layout_constraintStart_toStartOf="@+id/login_button"
-        app:layout_constraintTop_toBottomOf="@+id/login_button" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="34dp"
         android:layout_height="34dp"
         android:layout_marginEnd="4dp"
+<<<<<<< HEAD
         android:src="@drawable/ic_mail"
+=======
+        android:src="@drawable/music"
+>>>>>>> be06792a74c58239fe77c6c4649749e58e203fe5
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.5"
@@ -143,7 +137,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
         android:contentDescription="@string/app_name" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

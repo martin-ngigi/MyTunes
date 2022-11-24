@@ -26,8 +26,8 @@ class RegisterFragment: Fragment() {
         binding = FragmentSignUpBinding.bind(view)
 
         //get data from UI
-        var first_name = binding.fName.editableText.toString()
-        var last_name = binding.lName.editableText.toString()
+        var firstName = binding.fName.editableText.toString()
+        var lastName = binding.lName.editableText.toString()
         var email = binding.email.editableText.toString()
         var phone = binding.phone.editableText.toString()
         var password = binding.registerPassword.editableText.toString()
