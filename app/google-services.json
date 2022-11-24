@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056699239709",
+    "project_id": "mytunes-e0517",
+    "storage_bucket": "mytunes-e0517.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056699239709:android:7e8523cccf8642b2cce5f4",
+        "android_client_info": {
+          "package_name": "com.example.mytunes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056699239709-6j9lusmfk3coos52eat624lb3g73lvo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtZV6YiwnSN2hSN6pGf0gFy3IgEfPRKOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056699239709-6j9lusmfk3coos52eat624lb3g73lvo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
