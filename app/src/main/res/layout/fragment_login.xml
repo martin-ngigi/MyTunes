@@ -135,7 +135,7 @@
         android:layout_width="34dp"
         android:layout_height="34dp"
         android:layout_marginEnd="4dp"
-        android:src=""
+        android:src="@drawable/ic_mail"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.5"

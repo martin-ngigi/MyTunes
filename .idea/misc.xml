@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTunes/app/src/main/res/drawable-v24/ic_mail.xml" value="0.117" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTunes/app/src/main/res/drawable-v24/ic_person.xml" value="0.1635" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTunes/app/src/main/res/layout/activity_audio.xml" value="0.25" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTunes/app/src/main/res/layout/fragment_login.xml" value="0.18" />
         <entry key="..\:/Users/Administrator/AndroidStudioProjects/MyTunes/app/src/main/res/layout/fragment_sign_up.xml" value="0.18" />
       </map>
@@ -15,8 +16,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="SuppressKotlinCodeStyleNotification">
-    <option name="disableForAll" value="true" />
   </component>
 </project>
