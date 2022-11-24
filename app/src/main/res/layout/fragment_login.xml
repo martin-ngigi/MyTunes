@@ -125,11 +125,7 @@
         android:layout_width="34dp"
         android:layout_height="34dp"
         android:layout_marginEnd="4dp"
-<<<<<<< HEAD
-        android:src="@drawable/ic_mail"
-=======
         android:src="@drawable/music"
->>>>>>> be06792a74c58239fe77c6c4649749e58e203fe5
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toStartOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.5"

@@ -199,7 +199,6 @@
             app:layout_constraintStart_toStartOf="@+id/textInputLayout2"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
-<<<<<<< HEAD
         <TextView
             android:id="@+id/register_signin"
             android:layout_width="wrap_content"
@@ -238,8 +237,6 @@
             app:layout_constraintStart_toEndOf="@+id/register_signin"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/register_button" />
-=======
->>>>>>> be06792a74c58239fe77c6c4649749e58e203fe5
 
         <ImageView
             android:id="@+id/imageView6"
@@ -247,11 +244,7 @@
             android:layout_height="34dp"
             android:layout_marginEnd="4dp"
             android:contentDescription="@string/app_name"
-<<<<<<< HEAD
-            android:src="@drawable/ic_mail"
-=======
             android:src="@drawable/music"
->>>>>>> be06792a74c58239fe77c6c4649749e58e203fe5
             app:layout_constraintBottom_toBottomOf="@+id/textView"
             app:layout_constraintEnd_toStartOf="@+id/textView"
             app:layout_constraintHorizontal_bias="0.5"

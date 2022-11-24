@@ -1,6 +1,7 @@
 package com.example.mytunes
 
 import android.R.attr
+import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -35,13 +36,12 @@ class AudioActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
 
-        if (requestCode === 1) {
-            if (resultCode === RESULT_OK) {
+        if (requestCode == 1 && resultCode== Activity.RESULT_OK) {
 
                 //the selected audio.
-                val uri: Uri? = data?.getData()
-                audioBinding.audioTv.setText("${uri}")
-            }
+                val uri: Uri? = data?.data
+                audioBinding.audioTv.text="$uri"
+
         }
         super.onActivityResult(requestCode, resultCode, data)
     }
