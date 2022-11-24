@@ -12,8 +12,6 @@ import kotlinx.android.synthetic.main.row_users.view.*
 class BitsAdapter(
     var items: List<BitModel>
 ) :RecyclerView.Adapter<BitsAdapter.BitViewHolder>(){
-
-
     inner class BitViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BitViewHolder {
@@ -23,22 +21,16 @@ class BitsAdapter(
 
     override fun onBindViewHolder(holder: BitViewHolder, position: Int) {
         val currentBit = items[position]
-
         //set data
         holder.itemView.bitNameTv.text = currentBit.bitName
-        holder.itemView.bitUrlTv.text = "${currentBit.bitUrl}"
-
-
-
+        holder.itemView.bitUrlTv.text = currentBit.bitUrl
         //handle on click listener
         holder.itemView.setOnClickListener{
             //navigates to play bit
         }
     }
 
-    override fun getItemCount(): Int {
-        return items.size
+    override fun getItemCount(): Int = items.size
 
-    }
 
 }
