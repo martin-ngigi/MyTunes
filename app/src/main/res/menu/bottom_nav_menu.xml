@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-  
+
+        <item
+            android:id="@+id/home_bottomnav"
+            android:title="@string/home"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/profile_bottomnav"
+            android:title="@string/profile"
+            android:icon="@drawable/profile"/>
+        <item
+            android:id="@+id/text_bottomnav"
+            android:title="@string/communication"
+            android:icon="@drawable/text"/>
+        <item
+            android:id="@+id/details_bottomnav"
+            android:title="@string/details"
+            android:icon="@drawable/details"/>
+
 </menu>
