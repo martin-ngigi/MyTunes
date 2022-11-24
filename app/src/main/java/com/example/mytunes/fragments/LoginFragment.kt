@@ -15,14 +15,9 @@ class LoginFragment: Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        binding = FragmentLoginBinding.bind(view)
-
         //get data from UI
         var email = binding.emailEt.editableText.toString()
         var password = binding.loginPassword.editableText.toString()
-
-
     }
 
 
@@ -30,7 +25,8 @@ class LoginFragment: Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return layoutInflater.inflate(R.layout.fragment_login, container, false)
+    ): View {
+        binding = FragmentLoginBinding.inflate(inflater,container,false)
+        return binding.root
     }
 }

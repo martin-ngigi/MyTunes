@@ -14,7 +14,12 @@
         android:theme="@style/Theme.MyTunes"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".Homepage"
+=======
+            android:name=".MainActivity"
+            android:theme="@style/Theme.MyTunes.NoActionBar"
+>>>>>>> James
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
