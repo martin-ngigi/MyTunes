@@ -22,9 +22,5 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
     }
-<<<<<<< HEAD
-}
-=======
 }
 
->>>>>>> 3871b4961b8bec68a717fc984069b983212201e8
