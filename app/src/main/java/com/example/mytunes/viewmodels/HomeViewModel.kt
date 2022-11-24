@@ -19,7 +19,7 @@ class HomeViewModel(application: Application):AndroidViewModel(application) {
     private var status = false
     private var bits:MutableLiveData<List<BitModel>> = MutableLiveData()
     fun addBits(bitModel: BitModel):Boolean{
-        FirebaseDatabase.getInstance().getReference("/bits")
+        FirebaseDatabase.getInstance().getReference("/bits/${FirebaseAuth.getInstance().uid}")
             .setValue(bitModel)
             .addOnSuccessListener {
                 status = true
@@ -29,10 +29,10 @@ class HomeViewModel(application: Application):AndroidViewModel(application) {
         return status
     }
 
-    fun getBits():LiveData<List<BitModel>>{
+    fun getBits(uid:String):LiveData<List<BitModel>>{
         val list:ArrayList<BitModel> = ArrayList()
         viewModelScope.launch {
-            FirebaseDatabase.getInstance().getReference("/bits")
+            FirebaseDatabase.getInstance().getReference("/bits/$uid")
                 .addValueEventListener(object :ValueEventListener{
                     override fun onDataChange(snapshot: DataSnapshot) {
                         for (ds in snapshot.children){
